@@ -14,6 +14,11 @@ li, p, span, a, label, input, button, textarea {
   font-family: 'Inter', sans-serif;
 }
 
+html, body {
+    width: 100%;
+    overflow: hidden;
+}
+
 :root {
     --primary-purple: #6A4C9C;
     --secondary-lilac: #E7C6F7;
@@ -49,8 +54,6 @@ nav.hidden {
 nav ul {
     list-style: none;
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: hidden;
     gap: 35px;
 }
 
