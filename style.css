@@ -26,7 +26,7 @@ li, p, span, a, label, input, button, textarea {
 nav {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     background: rgba(43, 27, 64, 0.85);
     backdrop-filter: blur(6px);
     padding: 15px 40px;
