@@ -16,7 +16,7 @@ li, p, span, a, label, input, button, textarea {
 
 html, body {
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 :root {
