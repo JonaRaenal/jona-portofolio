@@ -49,6 +49,8 @@ nav.hidden {
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
     gap: 35px;
 }
 
@@ -133,7 +135,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -864,6 +866,10 @@ body {
 }
 
 @media (max-width: 480px){
+    /* Navigasi Mobile */
+    nav {
+        padding: 12px 18px;
+    }
     /* Hero Mobile */
     .hero {
         padding-top: 20px;
